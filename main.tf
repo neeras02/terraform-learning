@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_compute_instance" "myvm" {
-    name = "my-tf-vm"
+    name = "my-tf-vm2"
     machine_type = "f1-micro"
     zone = "us-central1-a"
     network_interface {
