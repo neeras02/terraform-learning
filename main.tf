@@ -7,7 +7,7 @@ resource "google_compute_instance" "myvm" {
     name = "my-tf-vm"
     machine_type = "f1-micro"
     zone = "us-central1-a"
-    netwrok_interface {
+    network_interface {
         network = "default"
         access_config{}
     }
